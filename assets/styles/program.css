@@ -1,0 +1,6 @@
+section {
+    width: 100vw;
+    height: 200px;
+    background-image: url("../images/background.avif");
+    background-size: cover;
+}

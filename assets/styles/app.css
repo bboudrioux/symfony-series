@@ -1,3 +1,17 @@
 body {
     background-color: rgb(140, 235, 135);
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav {
+    width: 30%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}

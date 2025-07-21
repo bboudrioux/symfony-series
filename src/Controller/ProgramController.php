@@ -10,10 +10,10 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class ProgramController extends AbstractController {
 
-    #[Route('/', name: 'program_index')]
+    #[Route('/program', name: 'program_list')]
     public function index(): Response {
 
-        return $this->render('program/index.html.twig', ["title" => "Program page"]);
+        return $this->render('program/index.html.twig', ["title" => "Program list"]);
 
     }
 }
